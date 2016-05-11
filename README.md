@@ -1,6 +1,6 @@
 # Flame Graphs for 4Js Genero
 
-This a script to convert Genero profiler output to a format suitable for [FlameGraph](http://www.brendangregg.com/flamegraphs.html).
+This is a script to convert Genero profiler output to a format suitable for [FlameGraph](http://www.brendangregg.com/flamegraphs.html).
 
 Flame Graphs will allow you to visualize your programs bottlenecks.
 
