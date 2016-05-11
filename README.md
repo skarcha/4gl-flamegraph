@@ -18,7 +18,7 @@ $ fglrun -p your_program.42r 2> your_program_profiler.log
 
 ### 2. Convert profiler data to stacks
 
-Use stackcollaps-4gl.py:
+Use stackcollapse-4gl.py:
 
 ```
 $ python stackcollapse-4gl.py your_program_profiler.log > your_program_profiler.folded
@@ -41,7 +41,7 @@ $ python stackcollapse-4gl.py your_program_profiler.log | ./flamegraph.pl > your
 ## Options
 
 ```
-Usage: stackcollapse.4gl.py [options] [infile] > output.folded
+Usage: stackcollapse-4gl.py [options] [infile] > output.folded
 
     -ot   # Generate stacks using time spent per stack (default)
     -oc   # Generate stacks using number of calls per stack
